@@ -1,0 +1,5 @@
+Signal,Seuil alerte,Seuil retraining,Fréquence monitoring,Source
+AUPRC (fenêtre glissante),< 0.70,< 0.65,Quotidienne,Labels confirmés (chargebacks)
+PSI score de fraude,> 0.10,> 0.25,Hebdomadaire,Scores en production
+KS sur V* (nb features driftées),≥ 5 features p < 0.05,≥ 10 features p < 0.05,Hebdomadaire,Distributions des features entrantes
+Taux de fraude prédit,Δ > 50% vs baseline,Δ > 100% vs baseline,Quotidienne,Scores en production

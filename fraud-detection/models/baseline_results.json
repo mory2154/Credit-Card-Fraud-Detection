@@ -1,0 +1,42 @@
+{
+  "models": [
+    {
+      "Mod\u00e8le": "Logistic Regression",
+      "AUPRC": 0.7845,
+      "AUC-ROC": 0.9808,
+      "Rappel fraude": 0.9072,
+      "Pr\u00e9cision fraude": 0.0232,
+      "F1 fraude": 0.0453,
+      "Co\u00fbt (\u20ac) seuil d\u00e9faut": 20473.53,
+      "% fraude r\u00e9cup\u00e9r\u00e9": 16.4,
+      "Seuil optimal": 0.99,
+      "Co\u00fbt optimal (\u20ac)": 2865.38
+    },
+    {
+      "Mod\u00e8le": "Isolation Forest",
+      "AUPRC": 0.0407,
+      "AUC-ROC": 0.9489,
+      "Rappel fraude": 0.5567,
+      "Pr\u00e9cision fraude": 0.0506,
+      "F1 fraude": 0.0928,
+      "Co\u00fbt (\u20ac) seuil d\u00e9faut": 9595.52,
+      "% fraude r\u00e9cup\u00e9r\u00e9": 12.1,
+      "Seuil optimal": 0.552,
+      "Co\u00fbt optimal (\u20ac)": 8090.11
+    },
+    {
+      "Mod\u00e8le": "LightGBM (d\u00e9faut)",
+      "AUPRC": 0.1159,
+      "AUC-ROC": 0.8122,
+      "Rappel fraude": 0.7835,
+      "Pr\u00e9cision fraude": 0.0977,
+      "F1 fraude": 0.1737,
+      "Co\u00fbt (\u20ac) seuil d\u00e9faut": 5532.75,
+      "% fraude r\u00e9cup\u00e9r\u00e9": 16.3,
+      "Seuil optimal": 0.985,
+      "Co\u00fbt optimal (\u20ac)": 5482.75
+    }
+  ],
+  "min_acceptable_auprc": 0.7845,
+  "best_baseline": "Logistic Regression"
+}

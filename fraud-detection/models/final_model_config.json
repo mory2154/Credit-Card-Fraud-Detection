@@ -1,0 +1,12 @@
+{
+  "winner": "LGB Optuna tuned",
+  "auprc": 0.755,
+  "cost_eur": 2306.85,
+  "threshold": 0.281,
+  "pct_recovered": 16.9,
+  "n_tp": 75.0,
+  "n_fn": 22.0,
+  "n_fp": 121.0,
+  "runner_up": "LR baseline",
+  "runner_up_auprc": 0.7409
+}

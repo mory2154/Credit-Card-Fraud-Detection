@@ -1,0 +1,59 @@
+{
+  "best_model": "LGB + ISO feature",
+  "best_auprc": 0.7714,
+  "best_threshold": 0.975,
+  "best_cost_eur": 2931.31,
+  "best_params": {
+    "n_estimators": 778,
+    "learning_rate": 0.04202407677265216,
+    "num_leaves": 20,
+    "min_child_samples": 41,
+    "subsample": 0.7188093524757608,
+    "colsample_bytree": 0.7900169474814274,
+    "reg_alpha": 0.0071999010020880275,
+    "reg_lambda": 9.97613844638971
+  },
+  "all_results": [
+    {
+      "Mod\u00e8le": "LGB + ISO feature",
+      "AUPRC": 0.7714,
+      "Rappel": 0.732,
+      "Pr\u00e9cision": 0.9595,
+      "F1": 0.8304,
+      "Co\u00fbt optimal (\u20ac)": 2931.31,
+      "% r\u00e9cup\u00e9r\u00e9": 14.8,
+      "Seuil optimal": 0.975
+    },
+    {
+      "Mod\u00e8le": "LGB SMOTETomek",
+      "AUPRC": 0.7657,
+      "Rappel": 0.8247,
+      "Pr\u00e9cision": 0.2446,
+      "F1": 0.3774,
+      "Co\u00fbt optimal (\u20ac)": 2663.35,
+      "% r\u00e9cup\u00e9r\u00e9": 17.4,
+      "Seuil optimal": 0.148
+    },
+    {
+      "Mod\u00e8le": "LGB Optuna tuned",
+      "AUPRC": 0.755,
+      "Rappel": 0.7732,
+      "Pr\u00e9cision": 0.3827,
+      "F1": 0.5119,
+      "Co\u00fbt optimal (\u20ac)": 2306.85,
+      "% r\u00e9cup\u00e9r\u00e9": 16.9,
+      "Seuil optimal": 0.281
+    },
+    {
+      "Mod\u00e8le": "LGB class_weight",
+      "AUPRC": 0.2753,
+      "Rappel": 0.3918,
+      "Pr\u00e9cision": 0.0375,
+      "F1": 0.0684,
+      "Co\u00fbt optimal (\u20ac)": 9979.32,
+      "% r\u00e9cup\u00e9r\u00e9": 11.1,
+      "Seuil optimal": 0.956
+    }
+  ],
+  "iso_feature_used": true
+}

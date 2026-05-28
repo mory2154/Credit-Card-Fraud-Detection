@@ -1,0 +1,51 @@
+{
+  "best_strategy": "4 \u2014 SMOTETomek",
+  "auprc": 0.7966,
+  "all_results": [
+    {
+      "Strat\u00e9gie": "4 \u2014 SMOTETomek",
+      "AUPRC": 0.7966,
+      "Rappel fraude": 0.8969,
+      "Pr\u00e9cision fraude": 0.0228,
+      "F1 fraude": 0.0444,
+      "n_train": 419832,
+      "n_fraudes_train": 209916
+    },
+    {
+      "Strat\u00e9gie": "3 \u2014 SMOTE",
+      "AUPRC": 0.7966,
+      "Rappel fraude": 0.8969,
+      "Pr\u00e9cision fraude": 0.0228,
+      "F1 fraude": 0.0444,
+      "n_train": 419832,
+      "n_fraudes_train": 209916
+    },
+    {
+      "Strat\u00e9gie": "1 \u2014 class_weight balanced",
+      "AUPRC": 0.7845,
+      "Rappel fraude": 0.9072,
+      "Pr\u00e9cision fraude": 0.0232,
+      "F1 fraude": 0.0453,
+      "n_train": 210292,
+      "n_fraudes_train": 376
+    },
+    {
+      "Strat\u00e9gie": "0 \u2014 Aucun resampling",
+      "AUPRC": 0.7406,
+      "Rappel fraude": 0.5773,
+      "Pr\u00e9cision fraude": 0.8235,
+      "F1 fraude": 0.6788,
+      "n_train": 210292,
+      "n_fraudes_train": 376
+    },
+    {
+      "Strat\u00e9gie": "2 \u2014 Random Undersampling",
+      "AUPRC": 0.5606,
+      "Rappel fraude": 0.9072,
+      "Pr\u00e9cision fraude": 0.019,
+      "F1 fraude": 0.0372,
+      "n_train": 752,
+      "n_fraudes_train": 376
+    }
+  ]
+}

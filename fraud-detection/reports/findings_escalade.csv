@@ -1,0 +1,6 @@
+Priorité,Finding,Détail,Action
+HAUTE,Performance par tranche de montant,Vérifier si rappel < 80% sur fraudes > 200€ — angle mort financier critique,"Analyser les FN > 200€ manuellement, ajuster le seuil si nécessaire"
+HAUTE,Représentativité limitée,2 jours — sept. 2013 — cardholders européens uniquement,Ne pas déployer sans validation sur données récentes et multi-géographies
+MOYENNE,Drift intra-test,Comparer AUPRC early vs late — si delta > 0.05 → drift à surveiller,Mettre en place un monitoring de drift hebdomadaire (Phase 13)
+MOYENNE,Dépendance aux V* anonymes,89% du signal SHAP vient de composantes PCA non-interprétables,Documenter l'opacité du modèle - requis pour conformité RGPD/explicabilité
+FAIBLE,Heures sans fraudes dans le test,Certaines tranches horaires ont 0-2 fraudes — rappel instable,Surveiller ces créneaux sur plus de données en production

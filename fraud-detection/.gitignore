@@ -1,0 +1,32 @@
+# Dataset brut (trop lourd pour git, >100 Mo)
+data/creditcard.csv
+data/*.csv
+data/*.zip
+
+# Modèles entraînés
+models/*.joblib
+models/*.pkl
+
+# Environnement virtuel
+venv/
+.venv/
+env/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variables d'environnement
+.env
+
+# Artefacts OS
+.DS_Store
+Thumbs.db
+
+# MLflow (si utilisé)
+mlruns/
